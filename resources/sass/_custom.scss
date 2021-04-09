@@ -1,0 +1,869 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding : 0;
+
+
+}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown5 {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-search {
+    display: none;
+    position: absolute;
+    right:15px;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+.dropdown-search-mobile {
+    display: none;
+    position: absolute;
+
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-search a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-search a:hover {background-color: #f1f1f1}
+
+
+
+/* The search field */
+#myInput-search {
+    box-sizing: border-box;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+
+}
+
+#myInput-search-mobile {
+    box-sizing: border-box;
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+/* The search field when it gets focus/clicked on */
+#myInput-search:focus {outline: 3px solid #ddd;}
+
+#myInput-search-mobile:focus {outline: 3px solid #ddd;}
+
+.show {display: block;}
+
+
+
+
+.wrapper-body{
+    max-width:1800px;
+    margin:auto;
+}
+
+.font-size{
+    font-size: 15px;
+}
+
+
+.font{
+
+    font-family: 'Cinzel', serif;
+}
+
+
+
+.cursor-grab {
+    cursor: pointer;
+}
+
+
+/*font-family: */
+
+
+
+.font-allura{
+    font-family: 'Allura', cursive;
+    color: #C6C9CF;
+
+}
+
+.font-allura-logo{
+    font-family: 'Allura', cursive;
+    font-size: 70px;
+}
+
+.font-antiqua{
+    font-family: 'Glass Antiqua', cursive;
+
+}
+
+.button-color{
+    background-color: darkred;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+.div-for-contact2{
+    background: gray;height: 100px;padding:17px;
+}
+
+.container-for-contact{
+    background: #1b1e21
+}
+
+.about-container{
+    max-width: 1600px;
+}
+
+.fa-facebook{
+    font-size: 20px;color:#fff;
+}
+
+.fa-instagram{
+    font-size: 20px;color:#fff;
+}
+
+.fa-pinterest{
+    font-size: 20px;color:#fff;
+}
+
+
+
+body{
+    padding:0; margin:0; background-color:#f9f3f3;
+}
+
+
+.heading-nav{
+    color: #e2e3e6;
+
+}
+
+#demo{
+    width: 300px;
+}
+
+
+
+/* search dropdown za mob*/
+
+
+
+
+
+.dropdown2 a{
+    background-color: #fff;
+}
+
+.dropdown5 a{
+    background-color: #fff;
+}
+
+.div-for-border{
+    border-bottom:1px solid lightgray
+}
+
+
+#navbar5{
+    z-index: 100;
+    width: 100%;
+}
+
+
+.scroll{
+    position: fixed;
+
+}
+
+
+
+.cart-vertical-scroll{
+    height: 365px;
+    overflow-y: auto;
+}
+
+
+.display-none{
+    display: none;
+}
+
+
+
+
+
+
+.logo-size{
+    height: 5em;
+    width: 5em;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color:gray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#app{
+    min-height: 100%;
+    position: relative;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+}
+
+#footer{
+    position: absolute;
+    height: 165px;
+    width:100%;
+    left: 0;
+    bottom: 0;
+    background: #d74704;
+
+
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+.footer-nav-text a{
+    color: #fff;
+}
+.copyright-text{
+    color:#fff;
+}
+
+.copyright-text a{
+    color:yellow;
+}
+
+#cart-span{
+    font-size: 10px;
+}
+
+.text-decoration a {
+    text-decoration: none
+}
+
+#login-link, #register-link{
+    text-decoration: none;
+}
+
+.border-hover:hover{
+    border: 1px solid lightgray;
+    padding: 20px;
+
+}
+
+
+.table-line-height{
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+.collection-images{
+    max-width: 70%;
+}
+
+.single-image-width{
+    max-width: 100%;
+}
+
+.single-image-width2{
+    max-width: 90%;
+}
+
+
+.input-za-placanje{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+    .navbar .nav-item:hover .nav-link{ color: orange;  }
+    .navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0 0;margin-right:100px; }
+    .navbar .dropdown-menu.fade-up{ top:180%;  }
+    .navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+    .dropdown-menu{
+        width:20px;
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    .label-checkout{
+        font-size: 18px;
+
+    }
+
+    .post-express-text{
+        font-size: 18px;
+    }
+
+    .text-placanje{
+        font-size: 20px;
+    }
+
+    .text-about{
+        font-size: 18px;
+    }
+
+    .paginacija{
+        margin-left: 38%;
+    }
+
+    .carousel-caption {
+        top: 50%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 300%;
+
+    }
+
+    .wrapper-slider{
+        padding:20px;
+    }
+
+
+    .add-cart-number{
+        font-size:12px;
+    }
+
+    .fa-shopping-cart{
+        font-size: 20px;
+        color:#e2e3e6;
+    }
+
+    .table-responsive td{
+        display: block;
+    }
+
+    .table td{
+        padding: 0;
+    }
+
+    .table-responsive th{
+        display: none;
+    }
+
+    .table-image{
+        width: 150px;
+        height: 150px;
+        margin:35px 0 0 0;
+
+    }
+
+    .table-image-border{
+    }
+
+    .delete-item{
+        float: right;
+        /*text-align: left;*/
+        /*margin-left: 30%;*/
+    }
+
+
+    #cart-for-mobile{
+
+    }
+
+    #slides{
+
+    }
+
+    .search-for-mobile{
+        margin-left: 10px;
+
+    }
+
+    .customer-care, .special-gift{
+        display: none;
+    }
+    /*#first-nav{*/
+    /*    display: none;*/
+    /*}*/
+
+
+    .navbar-collapse li{
+        text-align: center;
+    }
+
+    #cart-for-desktop{
+        display: none;
+    }
+
+    .logo-image{
+        height: 80px;
+        line-height: 90px;
+    }
+
+    .logo-center{
+        margin:auto;
+    }
+
+    .cart-icon{
+    }
+
+
+
+
+    .logo-text2{
+        display: none;
+    }
+
+    .cart-mobile{
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+    .cart-number{
+        border-radius: 30px;
+        color:white;
+        font-size: 13px;
+        padding-left: 3px;
+        padding-right: 3px
+    }
+
+    .logo-text{
+        font-size: 26px;
+        line-height: 105px;
+    }
+
+    .single-item-four-images{
+        max-width: 70%;
+    }
+
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .item {
+        width: 100px;
+        height: 50px;
+        margin: 10px;
+        position: relative;
+    }
+
+    .i-arrow {
+        color: blue;
+        margin-left: 20px;
+    }
+
+    .arrow1 {
+        animation: slide1 1s ease-in-out infinite;
+        margin-left: 9px;
+    }
+
+    @keyframes slide1 {
+        0%,
+        100% {
+            transform: translate(0, 0);
+        }
+
+        50% {
+            transform: translate(10px, 0);
+        }
+    }
+
+    .fa-bars{
+        font-size: 25px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1260px) {
+    .wrapper-slider{
+        width: 90%;
+        margin:auto;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .label-checkout{
+        font-size: 18px;
+
+    }
+
+    .heading-nav {
+        font-size: 70px;
+    }
+
+    .text-about{
+        font-size: 18px;
+    }
+
+    .forma-checkout{
+        width: 600px;
+    }
+
+    .paginacija{
+        margin-left: 45%;
+    }
+
+    .wrapper-slider{
+        padding:50px;
+    }
+
+    .carousel-caption {
+        top: 55%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 400%;
+
+    }
+
+    #fa-times-circle{
+        font-size: 20px
+    }
+
+    .fa-shopping-cart{
+        font-size: 20px;
+        color:#e2e3e6;
+    }
+
+    .delete-item{
+        float:right;
+    }
+
+    .cart-mobile {
+        display: none;
+    }
+
+    .carousel-inner {
+        /*height: 300px;*/
+    }
+
+
+    #cart-for-mobile {
+        display: none;
+    }
+
+    #first-nav {
+
+    }
+
+    .search-for-mobile {
+        display: none;
+    }
+
+    .logo-image {
+        height: 105px;
+    }
+
+    .text-first-nav {
+        font-size: 13px;
+    }
+
+    #nav {
+        height: 90px;
+    }
+
+
+    .footer-nav-text {
+        font-size: 13px;
+    }
+
+    .copyright-text {
+        font-size: 12px;
+    }
+
+    .cart-number {
+        border-radius: 30px;
+        font-size: 13px;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-weight: bold;
+
+    }
+
+    .logo-text {
+        font-size: 21px;
+        line-height: 105px;
+    }
+
+
+    .contact-form {
+        width: 40%;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        border-bottom: 1px solid white;
+
+
+    }
+
+    .single-item-four-images {
+        max-width: 70%;
+    }
+
+    .div-for-arrow{
+        display: none;
+    }
+
+
+    .table-responsive span{
+        display: none;
+    }
+
+    .total-cart{
+        float:right;
+    }
+
+
+    .card-primary{
+        width: 60%;
+    }
+
+
+    .post-express-text{
+        font-size: 18px;
+    }
+
+    .text-placanje{
+        font-size: 20px;
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        top: 55%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 300%;
+
+    }
+
+    .carousel-caption h1 {
+        font-size: 300%;
+
+    }
+
+    .carousel-caption h3 {
+        font-size: 120%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 85%;
+        padding: 8px 14px;
+    }
+
+    .div-for-height {
+        display: none;
+    }
+
+    .single-item-name {
+        text-align: center;
+    }
+
+
+    .under-slider {
+        top: 55%;
+    }
+
+    .under-slider h1 {
+        font-size: 400%;
+
+    }
+
+    .under-slider h3 {
+        font-size: 150%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+
+    .under-slider .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .carousel-caption {
+        top: 50%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 200%;
+
+    }
+
+    .carousel-caption h3 {
+        font-size: 90%;
+
+    }
+
+    .carousel-caption .btn {
+        font-size: 70%;
+        padding: 4px 8px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+
+    .under-slider {
+        top: 55%;
+    }
+
+    .under-slider h1 {
+        font-size: 400%;
+
+    }
+
+    .under-slider h3 {
+        font-size: 150%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+
+    .under-slider .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+
+    .single-item-four-images{
+        max-width: 50%;
+    }
+
+    .single-price-for-mob{
+        font-size: 24px;
+    }
+
+    .post-express-text{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+
+    .heading-nav{
+        font-size: 60px;
+    }
+
+    .single-price-for-mob{
+        font-size: 22px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 360px) {
+    .heading-nav {
+        font-size: 50px;
+    }
+
+    @media screen and (max-width: 320px) {
+        .heading-nav {
+            font-size: 40px;
+        }
+
+
+    }
+
+
+}
